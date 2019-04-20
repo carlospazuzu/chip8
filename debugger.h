@@ -54,8 +54,8 @@ class Debugger {
                 this->chip8 = chip8;
                 this->window = window;
 
-                light = new sf::Color(36, 36, 36); // 97, 125, 106); // 252, 202, 0);
-                dark = new sf::Color(240, 240, 240); // 23, 23, 23); // 176, 91, 0);
+                light = new sf::Color(252, 202, 0);
+                dark = new sf::Color(176, 91, 0);
 
                 background = new sf::RectangleShape(sf::Vector2f(300, 250));
                 background->setFillColor(*dark);

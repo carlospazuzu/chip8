@@ -45,8 +45,8 @@ class Game {
 
                 wRect = new sf::RectangleShape(sf::Vector2f(10, 10));
                 bRect = new sf::RectangleShape(sf::Vector2f(10, 10));
-                wRect->setFillColor(sf::Color(LIGHT));
-                bRect->setFillColor(sf::Color(DARK));
+                wRect->setFillColor(sf::Color(LIGHT_YELLOW));
+                bRect->setFillColor(sf::Color(DARK_YELLOW));
 
             }
 

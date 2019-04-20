@@ -52,7 +52,7 @@ void Game::handleChip8Input(sf::Event event)
 
 void Game::loadGame()
 {
-    FILE *fp = fopen("../games/TETRIS", "rb");
+    FILE *fp = fopen("../games/HIDDEN", "rb");
 
     if (!fp)
     {
@@ -124,7 +124,7 @@ void Game::run()
 
 void Game::updateScreen()
 {
-    window->clear(LIGHT_BG);
+    window->clear(YELLOW_BG);
 
     for (int i = 0; i < 32; i ++)
     {
